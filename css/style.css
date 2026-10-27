@@ -1,0 +1,94 @@
+/* ---------- Page ---------- */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f3efe7;          
+  color: #2b2f36;                     
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ---------- Quiz card ---------- */
+.quiz-container {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 520px;
+  padding: 40px 36px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(43, 47, 54, 0.12);
+  text-align: center;
+}
+
+/* ---------- Question ---------- */
+#question {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  font-weight: normal;
+  color: #1f2a3a;                      
+  margin-top: 0;
+  margin-bottom: 28px;
+  line-height: 1.4;
+}
+
+/* ---------- Answer options ---------- */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.option {
+  background-color: #2f3e4e;           
+  color: #f3efe7;                      
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  padding: 16px 20px;
+  border: 1px solid #2f3e4e;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.option:hover {
+  background-color: #445a70;           
+  transform: translateY(-2px);
+}
+
+.option:active {
+  transform: translateY(0);
+}
+
+/* ---------- Next button ---------- */
+#next-button {
+  margin-top: 28px;
+  background-color: transparent;
+  color: #b08d57;                      
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  border: 2px solid #b08d57;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#next-button:hover {
+  background-color: #b08d57;
+  color: #ffffff;
+}
+
+/* ---------- Small screens ---------- */
+@media screen and (max-width: 480px) {
+  .quiz-container {
+    padding: 28px 20px;
+  }
+
+  #question {
+    font-size: 22px;
+  }
+}
