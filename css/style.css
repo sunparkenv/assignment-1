@@ -65,13 +65,13 @@ body {
 #next-button {
   margin-top: 28px;
   background-color: transparent;
-  color: #b08d57;                      
+  color: #b0987c;                      
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
   padding: 12px 36px;
-  border: 2px solid #b08d57;
+  border: 2px solid #b08d57; 
   border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -79,7 +79,7 @@ body {
 
 #next-button:hover {
   background-color: #b08d57;
-  color: #ffffff;
+  color: #f3eff7;
 }
 
 /* ---------- Small screens ---------- */
