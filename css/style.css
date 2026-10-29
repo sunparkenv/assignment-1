@@ -82,6 +82,51 @@ body {
   color: #ffffff;
 }
 
+
+/* ---------- Right button ---------- */
+#Right-button {
+  margin-top: 28px;
+  background-color: transparent;
+  color: rgba(5, 5, 192, 0.731);                      
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  border: 2px solid rgba(5, 5, 192, 0.731);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#wrong-button:hover {
+  background-color: rgba(5, 5, 192, 0.731);
+  color: #ffffff;
+}
+
+
+/* ---------- Wrong button ---------- */
+#wrong-button {
+  margin-top: 28px;
+  background-color: transparent;
+  color: rgba(175, 2, 2, 0.809);                      
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 12px 36px;
+  border: 2px solid rgba(175, 2, 2, 0.809);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#wrong-button:hover {
+  background-color: rgba(175, 2, 2, 0.809);
+  color: #ffffff;
+}
+
+
 /* ---------- Small screens ---------- */
 @media screen and (max-width: 480px) {
   .quiz-container {

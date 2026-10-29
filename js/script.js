@@ -77,3 +77,9 @@ function showScore() {
 }
 
 loadQuestion();
+
+document.getElementById("toggleButton").
+  addEventListener("click", function() {
+    const myDiv = document.getElementById("next-button");
+    myDiv.classList.toggle("hidden");
+  });
